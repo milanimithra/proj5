@@ -1,0 +1,22 @@
+<h2 text-align="center">Enter Product Info</h2>
+
+<div margin:auto class="bkgrn-color-blue">
+    <form [formGroup]="register" (ngSubmit)="view(register.value)">
+        <div><h2>Add / Edit Customers</h2></div>
+id <input type="text" formControlName="id"><br>
+name<input type="text" formControlName="name"><br>
+quantity<input type="text" formControlName="quantity"><br>
+price<input type="text" formControlName="price" >
+<button type="submit">submit</button>
+
+
+<h1>
+<span>{{message}}</span></h1>
+    </form>
+</div>
+
+
+          
+  
+<span>{{message}}</span>
+   
